@@ -1,0 +1,726 @@
+@media (max-width: 1300px) {
+    header nav {
+        height: auto;
+        padding: 15px 0;
+        flex-wrap: wrap;
+    }
+    header nav .logo {
+        margin-left: 25px;
+    }
+    header nav .logo h1 {
+        font-size: 28px;
+    }
+    header nav .links {
+        margin-right: 25px;
+    }
+    header nav .links ul li {
+        display: block;
+       
+    }
+    header nav .links ul li {
+         margin: 20px 0;
+    }
+    header nav .links ul {
+        position: absolute;
+        background-color: black;
+        bottom: -10px;
+        left: 50%;
+        transform: translate(-50%, 100%);
+        width: 90%;
+        height: 0px;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 5px;
+        transition-duration: 1s;
+        column-gap: 0px;
+        row-gap: 20px;
+        overflow: hidden;
+
+    }
+    header nav .links .gym {
+        display: block; 
+        width: 50px;
+        height: 40px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+         border: 1px solid var(--second-color);
+         border-radius: 10px;
+  
+    }
+    header nav .links .gym span {
+        display: block;
+        width: 25px;
+        height: 2px;
+        background-color: var(--second-color);
+        margin: 8px auto;
+       
+      }
+     header nav .links .gym:focus + ul {
+        height: 376px;
+        padding: 20px 0;
+    }
+    header .content {
+        width: 100%;
+        /* text-align: center; */
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    header .content h1 {
+        font-size: 30px;
+    }
+    header .content h3 {
+        font-size: 22px;
+    }
+    #About .row {
+        flex-direction: column;
+    }
+    #About .row .part1, #About .row .part2 {
+        width: 100%;
+        margin-right: 0;
+        /* text-align: center; */
+        /* align-items: center; */
+    }
+    #About .row .part1 h2 {
+        font-size: 25px;
+        margin: 15px 0;
+    }
+    #About .row .part.part2 .img img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    #Service {
+        padding: 30px 15px;
+    }
+    #Service h2 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    #Service .row {
+        width: 300px;
+        flex-direction: column-reverse;
+        margin: auto;
+        /* text-align: center; */
+    }
+    #Service .row .part1, #Service .row .part2 {
+        width: 100%;
+    }
+    #Service .row:nth-child(3) {
+        flex-direction: column; 
+    }
+    #Service .row .part1 h3 {
+        font-size: 22px;
+    }
+    #Service .row .part2 .item i {
+        margin: 20px auto;
+    }
+
+    #Clint {
+        padding: 30px 15px;
+    }
+    #Clint h2 {
+        font-size: 28px;
+    }
+    #Clint .row {
+        flex-direction: column;
+        width: 300px;
+        margin: auto;
+    }
+    #Clint .row .part {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #Clint .row .part p {
+        font-size: 14px;
+    }
+    #Trainers {
+        padding: 30px 15px;
+    }
+    #Trainers h2 {
+        font-size: 28px;
+    }
+    #Trainers .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    #Trainers .row .col {
+    width: 280px;
+    margin: 15px 40px;
+}
+#Trainers .row .card {
+    width: 100%;
+    
+}
+    #Trainers .row .col .card .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+     #Trainers .row .col .card .social a {
+        margin: 10px;
+     }
+    #Gallery {
+        padding: 30px 15px;
+    }
+    #Gallery h2 {
+        font-size: 28px;
+    }
+    #Gallery .row {
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto;
+    }
+    #Gallery .row .block {
+        height: 250px;
+        grid-row: span 1; 
+    }
+    #Contact {
+        padding: 30px 15px;
+    }
+    #Contact .container h2 {
+        font-size: 28px;
+    }
+    #Contact .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    #Contact .row .part {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    #Contact .container form {
+        width: 90%;
+    }
+    #Contact .container .row {
+        flex-direction: column;
+    }
+    #Contact .container .row .input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    footer {
+        padding: 30px 15px;
+    }
+    footer .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .row .part {
+        width: 100%;
+        margin-bottom: 30px;
+        /* text-align: center; */
+    }
+    footer .row .part2 .item {
+        width: 100%;
+        justify-content: center;
+    }
+    footer .row .part2 .img {
+        width: 100%;
+    }
+    footer .row .part3 .item {
+        width: 100%;
+    }
+    footer .row .part3 .day {
+        /* float: none; */
+        font-size: 12px;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    footer .row .part3 .time {
+        /* float: none; */
+        font-size: 12px;
+        display: inline-block;
+    }
+  
+}
+
+
+
+
+@media (min-width: 371px) and (max-width: 1300px){
+   
+    header nav .logo {
+        margin-left: 25px;
+    }
+    header nav .logo h1 {
+        font-size: 28px;
+    }
+    header nav .links {
+        margin-right: 25px;
+    }
+    header .content h1 {
+        font-size: 42px;
+    }
+    header .content h3 {
+        font-size: 32px;
+    }
+    #About .row {
+        flex-direction: column;
+    }
+    #About .row .part1, #About .row .part2 {
+        width: 100%;
+        margin-right: 0;
+        /* text-align: center; */
+        /* align-items: center; */
+    }
+    #About .row .part1 h2 {
+        font-size: 28px;
+        margin: 15px 0;
+    }
+    #About .row .part.part2 .img img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    #Service {
+        padding: 30px 15px;
+    }
+    #Service h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    #Service .row {
+        width: 300px;
+        flex-direction: column-reverse;
+        margin: auto;
+        /* text-align: center; */
+    }
+    #Service .row .part1, #Service .row .part2 {
+        width: 100%;
+    }
+    #Service .row:nth-child(3) {
+        flex-direction: column; 
+    }
+    #Service .row .part1 h3 {
+        font-size: 22px;
+    }
+    #Service .row .part2 .item i {
+        margin: 20px auto;
+    }
+
+    #Clint {
+        padding: 30px 15px;
+    }
+    #Clint h2 {
+        font-size: 28px;
+    }
+    #Clint .row {
+        flex-direction: column;
+        width: 300px;
+        margin: auto;
+    }
+    #Clint .row .part {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #Clint .row .part p {
+        font-size: 14px;
+    }
+    #Trainers {
+        padding: 30px 15px;
+    }
+    #Trainers h2 {
+        font-size: 28px;
+    }
+    #Trainers .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Trainers .row .col {
+    width: 280px;
+    margin: 15px 40px;
+}
+#Trainers .row .card {
+    width: 100%;
+    
+}
+    #Trainers .row .card .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+     #Trainers .row .card .social a {
+        margin: 10px;
+     }
+    #Gallery {
+        padding: 30px 15px;
+    }
+    #Gallery h2 {
+        font-size: 28px;
+    }
+    #Gallery .row {
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto;
+    }
+    #Gallery .row .block {
+        height: 250px;
+        grid-row: span 1; 
+    }
+    #Contact {
+        padding: 30px 15px;
+    }
+    #Contact .container h2 {
+        font-size: 28px;
+    }
+    #Contact .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    #Contact .row .part {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    #Contact .container form {
+        width: 90%;
+    }
+    #Contact .container .row {
+        flex-direction: column;
+    }
+    #Contact .container .row .input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    footer {
+        padding: 30px 15px;
+    }
+    footer .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .row .part {
+        width: 100%;
+        margin-bottom: 30px;
+        /* text-align: center; */
+    }
+    footer .row .part2 .item {
+        width: 100%;
+        justify-content: center;
+    }
+    footer .row .part2 .img {
+        width: 100%;
+    }
+    footer .row .part3 .item {
+        width: 100%;
+    }
+    footer .row .part3 .day {
+        /* float: none; */
+        font-size: 12px;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    footer .row .part3 .time {
+        /* float: none; */
+        font-size: 12px;
+        display: inline-block;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+
+    header nav .logo {
+        margin-left: 25px;
+    }
+    header nav .logo h1 {
+        font-size: 40px;
+    }
+    header nav .links {
+        margin-right: 25px;
+    }
+    
+    #Gallery .row .block {
+        width: 80%;
+        margin: auto;
+    }
+    #Contact .container form {
+        width: 70%;
+    }
+    #Contact .container .row {
+        flex-direction: column;
+    }
+    #Contact .container .row .input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    #Contact .container form .row button {
+        margin-right: auto;
+    }
+    footer .row .part2 .item {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .row .part2 .img {
+    width: 33.33%;
+}
+footer .row .part2 .img img {
+    width: 100%;
+    margin: 7px;
+}
+footer .row .part3 .item {
+    width: 70%;
+}
+footer .row .part3 .day {
+        /* float: none; */
+        font-size: 14px;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    footer .row .part3 .time {
+        /* float: none; */
+        font-size: 14px;
+        display: inline-block;
+    }
+   
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    header nav {
+        height: auto;
+        padding: 15px 0;
+        /* background-color: rgba(0, 0, 0, 0.9);  */
+        flex-wrap: wrap;
+    }
+    header nav .logo {
+        margin-left: 15px;
+    }
+    header nav .logo h1 {
+        font-size: 40px;
+    }
+    header nav .links {
+        margin-right: 15px;
+    }
+    header .content h1 {
+        font-size: 46px;
+    }
+    header .content h3 {
+        font-size: 36px;
+    }
+    #About .row {
+        flex-direction: row;
+        margin: 0 15px;
+    }
+    #About .row .part1, #About .row .part2 {
+        width: 50%;
+        margin-right: 0;
+    }
+    #About .row .part1 h2 {
+        font-size: 35px;
+        margin: 15px 0;
+        margin-bottom: 40px;
+    }
+    #About .row .part.part2 .img img {
+        max-width: 80%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #Service h2 {
+        font-size: 35px;
+    }
+    #Service .row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+}
+    #Service .row .part1 {
+        width: 66.67%;
+}
+    #Service .row .part1 h3 {
+        font-size: 25px;
+    }
+    #Service .row .part1 p {
+        width: 90%;
+}
+    #Service .row .part2 {
+        width: 33.33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+    #Service .row:nth-of-type(2) {
+        flex-direction: row;
+    }
+    #Clint h2 {
+        font-size: 32px;
+    }
+    #Clint .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+      #Clint .row .part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    #Clint .row .part p {
+    width: 90%;
+    line-height: 20px;
+}
+#Trainers h2 {
+    font-size: 32px;
+}
+    #Trainers .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+#Trainers .row .col {
+    width: 280px;
+    margin: 15px 40px;
+}
+#Trainers .row .card {
+    width: 100%;
+    
+}
+    #Gallery .container {
+        max-width: 720px;
+    }
+    #Gallery h2 {
+        font-size: 32px;
+    }
+    #Gallery .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    }
+    #Gallery .row .block:nth-of-type(1), 
+    #Gallery .row .block:nth-of-type(4) {
+        grid-row: span 2;
+        height: 100%;
+        width: 100%;
+    } 
+    #Gallery .row .block:nth-of-type(2), 
+    #Gallery .row .block:nth-of-type(3),
+    #Gallery .row .block:nth-of-type(5), 
+    #Gallery .row .block:nth-of-type(6),
+    #Gallery .row .block:nth-of-type(7) {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #Contact .container h2 {
+        font-size: 32px;
+    }
+    #Contact .container .row {
+      flex-direction: row;
+    }
+    #Contact .row .part {
+        width: 33.33%;
+    }
+    #Contact .container form {
+        width: 90%;
+    }
+    #Contact .container .row .input {
+        width: 30%;
+        margin-right: 3%;
+        margin-bottom: 15px;
+    }
+    #Contact .container .row .input:last-child {
+    margin-right: 0px;
+}
+    
+    footer .row .part2 .item {
+    width: 70%;
+}
+footer .row .part2 .img {
+    width: 33.33%;
+}
+footer .row .part2 .img img {
+    width: 100%;
+}
+footer .row .part3 .item {
+    width: 70%;
+}
+footer .row .part3 .item {
+    width: 55%;
+}
+
+    
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    header nav .logo {
+        margin-left: 25px;
+    }
+    header nav .logo h1 {
+        font-size: 40px;
+    }
+    header nav .links {
+        margin-right: 25px;
+    }
+    header .content h1 {
+        font-size: 50px;
+    }
+    header .content h3 {
+        font-size: 42px;
+    }
+    header .content button {
+        padding: 15px 20px;
+        font-size: 15px;
+    }
+    #About .row .part1 h2 {
+        font-size: 40px;
+    }
+    #About .row .part.part2 .img img {
+        max-width: 90%;
+    }
+     #Service h2 {
+        font-size: 40px;
+    }
+    #Service .row .part1 p {
+        width: 100%;
+    }
+
+    #Clint .row .part p {
+    width: 72%;
+    line-height: 20px;
+}
+#Trainers h2 {
+    font-size: 40px;
+}
+    #Trainers .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#Trainers .row .col {
+    width: 25%;
+    
+}
+#Gallery .container {
+        max-width: 960px;
+    }
+    #Gallery h2 {
+        font-size: 40px;
+    }
+      #Contact .container h2 {
+        font-size: 40px;
+    }
+     #Contact .container form {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+
+}
