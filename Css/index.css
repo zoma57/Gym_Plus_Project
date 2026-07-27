@@ -33,7 +33,6 @@ header nav .links .gym {
 header nav .links {
     margin-right: 40px;
     text-transform: uppercase;
-
 }
 header nav .links ul li {
 
@@ -202,6 +201,8 @@ header .content button:hover {
 }
 #Clint .row .part p {
     line-height: 30px;
+    width: 80%;
+    margin: auto;
     /* font-size: 15px; */
 }
 #Clint .row .part h3 {
